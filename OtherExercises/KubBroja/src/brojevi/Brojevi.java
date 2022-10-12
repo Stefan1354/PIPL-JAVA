@@ -11,8 +11,6 @@ public class Brojevi {
         Scanner s = new Scanner(System.in);
         System.out.println("Unesite jedan ceo broj: ");
         int a = s.nextInt();
-        System.out.println("Kub tog broja  je: " +kub(a));
-                
+        System.out.println("Kub tog broja  je: " +kub(a));         
     }
-    
 }
