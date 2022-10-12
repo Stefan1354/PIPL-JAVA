@@ -11,6 +11,5 @@ public class SemEx1 {
         int age = s.nextInt();
         System.out.println("Your name is "+name+", with faculty number "+number+" and you are "+age+" year old.");
         
-    }
-    
+    } 
 }
