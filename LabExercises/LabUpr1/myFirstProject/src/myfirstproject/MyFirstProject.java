@@ -22,7 +22,6 @@ public class MyFirstProject {
     //2. Напишете програма, която по зададени две страни на правоъгълник изчислява и отпечатва неговото лице. 
     //Дължините на страните се въвеждат от стандартния вход.
     
-   
    Scanner s = new Scanner(System.in);
    System.out.println("Enter the side length of the rectangle: ");
    float length = s.nextFloat();
@@ -31,6 +30,7 @@ public class MyFirstProject {
    float area = length * width;
    System.out.println("Area of rectangle is: "+Math.ceil(area));
     
+        
     //3.  Напишете програма която получава от стандартния вход 5 низа, разделени с интервал и записва низовете в масив. 
     //Отпечатва низовете на екрана.
     
