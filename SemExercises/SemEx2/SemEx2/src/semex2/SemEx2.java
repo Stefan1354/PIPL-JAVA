@@ -4,7 +4,7 @@ public class SemEx2 {
         System.out.println(true || false);
     int a = 5;
     System.out.println((a > 10));
-    System.out.println(a > 10 ? "bigger " : "smaller");   // Proverqva se uslovieto, ako e tachno ispisva se purvoto, 
+    System.out.println(a > 10 ? "bigger " : "smaller");   // Proverqva se uslovieto, ako e tochno ispisva se purvoto, 
                                                           // ako ne e tochno ispisva vtoroto
     System.out.println(!(10 < 15));
     triggerTernaryOperation();
