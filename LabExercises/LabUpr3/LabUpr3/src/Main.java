@@ -20,6 +20,6 @@ public class Main {
         Company company1 = new Company("Huawei", "23.04.2020.", "1592330183");
         Company company2 = new Company("Samsung", "12.02.2015", "46315");
         System.out.println(company1.getBulstat());
-        System.out.println(company2.getBulstat());
+        System.out.println(company2.getName());
     }
 }
