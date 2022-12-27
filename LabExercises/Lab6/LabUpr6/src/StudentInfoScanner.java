@@ -5,7 +5,6 @@ public class StudentInfoScanner {
     static Pattern pN = Pattern.compile("[А-Яа-я+]");
     static Pattern pF = Pattern.compile("[0-9]{9}");
 
-
     static String scanStudentInfo(Scanner scanner) {
         String studentName;
         String studentFacNo;
@@ -22,6 +21,5 @@ public class StudentInfoScanner {
         while (mN.matches() == false && mF.matches() == false);
         String answerString = "Hello! My name is " + studentName + ". My faculty number is: " + studentFacNo;
         return answerString;
-
     }
 }
