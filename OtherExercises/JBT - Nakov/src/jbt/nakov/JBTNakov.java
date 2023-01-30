@@ -302,8 +302,8 @@ else
    else
        System.out.println("The numbers are same.");
 
-
-
+        
+        
    Scanner s = new Scanner(System.in);
    System.out.println("Enter item: ");
    String item = s.nextLine();
