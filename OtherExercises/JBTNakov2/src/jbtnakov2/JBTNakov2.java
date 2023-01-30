@@ -230,6 +230,7 @@ while(!name.equals("Alhemicar")){
    name = s.nextLine();
 }
 System.out.println("Book found!");
+    
 
 //10. Write a program to find the min and max numbers
 //    read integers from the console until "END" is entered
@@ -253,6 +254,7 @@ System.out.println("Book found!");
    }
    System.out.println("Max num: "+max);
    System.out.println("Min num: "+min);
+    
 
 //11. Write a program to check if given number is special:
 //    - special numbers are divisible by all of their digits without remainder
@@ -294,6 +296,7 @@ for(int i=1; i<n; i+=3){
 
 }
 System.out.println();
+    
 
 //12. Write a program to print the even powers of 2:
 //    - read a number n 
@@ -395,6 +398,7 @@ while(row<=2){
        System.out.println();
        line++;
    }
+    
 
 // 13. Sum of digits calculator
 //Continuously read integers untlil "End" is entered
@@ -415,6 +419,7 @@ while(row<=2){
        System.out.println("Sum of digits: "+sumOfDigits);
    }
    System.out.println("Goodbye");
+    
 
 // 14. Magic Numbers
 
@@ -437,6 +442,7 @@ while(row<=2){
            }
        }
    }
+    
 
 // 15. Calculate the money collection for multiple travel destinations:
 //     Read destination and needed budget for destination.
@@ -514,6 +520,7 @@ while(row<=2){
            }
        }
    }
+       
 
 // 18. Write a program to generate all 4-digit happy numbers {d1}{d2}{d3}{d4} for given integer n:
 //     A number is happy if  d1 + d2 == d3 + d4 == n
