@@ -3,16 +3,16 @@ public class Main {
 
         //1. Given an array of integers find the biggest integer.
 
-//        int[] array = {24, 4, 7, 8, 10, 15};
-//        int max = array[0];
-//
-//        for (int i = 0; i < array.length; i++) {
-//            if (array[i] > array[0]) {
-//                max = array[i];
-//            }
-//        }
-//        System.out.println("Max element is: " + max);
-//    }
+       int[] array = {24, 4, 7, 8, 10, 15};
+       int max = array[0];
+
+       for (int i = 0; i < array.length; i++) {
+           if (array[i] > array[0]) {
+               max = array[i];
+           }
+       }
+       System.out.println("Max element is: " + max);
+   }
 
         // 2. Given an array of integers find the smallest integer.
 
