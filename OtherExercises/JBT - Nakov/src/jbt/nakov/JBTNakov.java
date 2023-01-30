@@ -278,6 +278,7 @@ else
    }
    else
        System.out.println("Wrong fruit!!!");
+        
 
 //9. Write a program, that reads 3 numbers from the console and prints the biggest of them.
 
